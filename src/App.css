@@ -1,0 +1,53 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.appBody {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex; 
+  flex-direction: column; 
+   
+  font-size: calc(14px + 2vmin);
+  color: white;
+}
+
+#title{
+  color:#61dafb;
+  text-align: center;
+}
+#text-editor, #preview{
+  background-color: #1a1c21;
+  overflow: auto;
+}
+#text-editor {
+  position: absolute;
+  left: 0;
+  border-style: solid;
+  border-color: #61dafb;
+  border-radius: 5px;
+  height: 70%;
+  width: 48%;
+}
+
+#preview {
+  position: absolute;
+  left: 51.5%;
+  border-style: solid;
+  border-color: #61dafb;
+  border-radius: 5px;
+  height: 70%;
+  width: 48%;
+}
+
+#content-container{
+  margin-top: 50px;;
+
+}
+#editor{
+  height: 99%;
+  width: 99.3%;
+  background-color: #1a1c21;
+  color: white;
+}
